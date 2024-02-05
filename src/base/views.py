@@ -12,4 +12,4 @@ def about(request):
 
 
 def uzb_info(request):
-    return HttpResponse("O'zbekiston poytaxti Toshkent")
+    return render(request, 'info.html', {})
