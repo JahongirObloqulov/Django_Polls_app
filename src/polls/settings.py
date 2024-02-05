@@ -73,7 +73,7 @@ WSGI_APPLICATION = 'polls.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+# https://docs.django project.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
