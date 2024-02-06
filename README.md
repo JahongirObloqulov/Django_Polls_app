@@ -1,4 +1,5 @@
 ![Текст описания](https://cbsedu.blob.core.windows.net/course-video-covers/course-video-covers-412750ac-241a-4b3f-a77f-4fae45b8cacc.jpg)
+
 ## Assalom aleykum dasturni ishlatish uchun quyidagi qadamlarni ketma-ket amalga oshiring.
 
 ## 1-qadam.
