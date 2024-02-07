@@ -8,7 +8,7 @@ git clone https://github.com/JahongirObloqulov/Django_Polls_app.git
 ```
 ## 2-qadam.
 ```
-cd django_first_project
+cd Django_Polls_app
 ```
 ## 3-qadam.
 ```
