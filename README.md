@@ -32,7 +32,6 @@ python manage.py runserver
 ```
 ## 8-qadam.
 ```
-http://127.0.0.1:8000/polls/1/detail
-http://127.0.0.1:8000/polls/1/vote
+http://127.0.0.1:8000/polls/
 ```
 
