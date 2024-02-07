@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        legend {
+            text-align: center
+        }
+        div {
+            padding-left: 570px;
+        }
+        fieldset{
+            font-size:50px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Savol: {{question.text}}</h1>
-    <ol>
-        {% for i in options %}
-        <li>{{i.text}} - {{i.votes}} ta</li>
-        {% endfor %}
-    </ol>
+    <fieldset>
+        <legend>Savol: {{question.text}}</legend>
+        <div>
+            <ol>
+            {% for i in options %}
+                <li>{{i.text}} - {{i.votes}} ta</li>
+            {% endfor %}
+        </ol>
+        </div>
+    </fieldset>
 </body>
 </html>

@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        fieldset{
+            font-size:50px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Savollar ro'yxati</h1>
-    <ol>
+    <fieldset>
+        <legend>Savollar ro'yxati</legend>
+        <ol>
         {% for i in questions %}
             <li><a href="{% url 'detail' question_id=i.id %}">{{i.text}}</a></li>
         {% endfor %}
     </ol>
+    </fieldset>
 </body>
 </html>
