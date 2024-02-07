@@ -5,10 +5,10 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>Savollar ro'yxati</h1>
+    <h1>Savol: {{question.text}}</h1>
     <ol>
-        {% for i in questions %}
-            <li><a href="{% url 'detail' question_id=i.id %}">{{i.text}}</a></li>
+        {% for i in options %}
+        <li>{{i.text}} - {{i.votes}} ta</li>
         {% endfor %}
     </ol>
 </body>
