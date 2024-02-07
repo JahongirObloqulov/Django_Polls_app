@@ -4,7 +4,7 @@
 
 ## 1-qadam.
 ```
-git clone https://github.com/JahongirObloqulov/django_first_project.git
+git clone https://github.com/JahongirObloqulov/Django_Polls_app.git
 ```
 ## 2-qadam.
 ```
