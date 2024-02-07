@@ -1,8 +1,9 @@
 from django.urls import path
-from .views import *
+from .views import question_list, question_detail, question_vote
 
 urlpatterns = [
-    path("test/", hello_world),
-    path('uzb_info/', uzb_info),
-    path('about/', about),
+    path("", question_list),
+    path("<int:question_id>/detail/", question_detail),
+    path("<int:question_id>/vote/", question_vote, name='vote')
+
 ]

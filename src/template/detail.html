@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{question.text}}</h1>
+    <form action="">
+        {% for i in options %}
+            <label for="{{i.id}}">{{i.text}}</label>
+            <input type="radio" id="{{i.id}}" name="option"><br>
+        {% endfor %}
+        <input type="submit" value="Ovoz berish">
+    </form>
+</body>
+</html>
