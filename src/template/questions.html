@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        body {
+            background-color:#F2F2F2;
+            font-weight: bold;
+            color:#2a0e0e
+        }
         fieldset {
             font-size:50px;
         }
         a {
                 text-decoration: none;
-                color: darkblue;
+                color:#2a0e0e
         }
+
     </style>
 </head>
 <body>
@@ -18,7 +24,7 @@
         <legend>Savollar ro'yxati</legend>
         <ol>
         {% for i in questions %}
-            <li><a href="{% url 'detail' question_id=i.id %}">{{i.text}}</a></li>
+            <li><a href="{% url 'detail' question_id=i.id %}">{{i.text}}</a></li><br>
         {% endfor %}
     </ol>
     </fieldset>
